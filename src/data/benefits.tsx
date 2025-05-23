@@ -4,26 +4,27 @@ import { IBenefit } from "@/types"
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Proteccion Marina",
+        description: "Recubrimientos de alto rendimiento para buques mercantes, tanqueros y embarcaciones industriales. Protección integral desde la quilla hasta la superestructura.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
+                title: "Obra Viva",
+                description: "Sistemas de pintura antifouling y anticorrosivos (1-10 años de protección), certificados IMO/ASTM para máxima eficiencia y cumplimiento normativo.",
                 icon: <FiBarChart2 size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
+                title: "Obra Muerta y Superestructura",
+                description: "Recubrimientos epoxi y poliuretanos de alta resistencia: máxima protección anticorrosiva con acabado duradero y estético.",
+            
                 icon: <FiTarget size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
+                title: "Sala de Máquinas y Tanques de Lastre",
+                description: "Pinturas epoxi y alquídicas especializadas para espacios confinados, con resistencia química y tratamiento anti-corrosivo en ambientes húmedos.",
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/barcos.png"
     },
     {
         title: "Seamless Investing",
@@ -45,7 +46,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiPieChart size={26} />
             }
         ],
-        imageSrc: "/images/mockup-2.webp"
+        imageSrc: "/images/refineria.png"
     },
     {
         title: "Bank-Grade Security",
@@ -67,6 +68,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/mockup-1.webp"
+        imageSrc: "/images/fabrica.png"
     },
 ]
