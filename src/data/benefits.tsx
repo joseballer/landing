@@ -24,7 +24,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />
             }
         ],
-        imageSrc: "/images/barcos.png"
+        imageSrc: "/images/barco.png"
     },
     {
         title: "Seamless Investing",
@@ -68,6 +68,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiShield size={26} />
             }
         ],
-        imageSrc: "/images/fabrica.png"
+        imageSrc: "/images/plataforma.png"
     },
 ]
