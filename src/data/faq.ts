@@ -3,23 +3,23 @@ import { siteDetails } from "./siteDetails";
 
 export const faqs: IFAQ[] = [
     {
-        question: `Is ${siteDetails.siteName} secure?`,
-        answer: 'Absolutely. We use bank-level encryption to protect your data and never store your login information. Plus, our biometric authentication adds an extra layer of security.',
+        question: `¿${siteDetails.siteName} cumple con normas industriales en sus productos?`,
+        answer: 'Todos nuestros recubrimientos cumplen con las normas ISO, ASTM, PDVSA y otras regulaciones aplicables. Proporcionamos certificados de calidad y fichas técnicas con cada compra.',
     },
     {
-        question: `Can I use ${siteDetails.siteName} on multiple devices?`,
-        answer: 'Absolutely! Your Finwise account syncs seamlessly across all your devices - smartphone, tablet, and computer.',
+        question: `¿Qué métodos de pago aceptan en ${siteDetails.siteName}?`,
+        answer: 'Aceptamos transferencias bancarias, efectivo en tienda (Barcelona, Anzoátegui), y pagos móviles. Para pedidos por WhatsApp/correo enviamos detalles de pago con factura electrónica.',
     },
     {
-        question: 'Can I connect all my bank accounts?',
-        answer: `Yes! ${siteDetails.siteName} supports connections with over 10,000 financial institutions worldwide. Simply log in through our secure portal to link your accounts.`
+        question: '¿Hacen envíos a otras ciudades de Venezuela?',
+        answer: 'Sí, coordinamos envíos nacionales vía transporte seguro. El costo varía según cantidad y destino (cotizamos sin compromiso por WhatsApp).',
     },
     {
-        question: 'Do I need any financial expertise to use the investing features?',
-        answer: 'Not at all! Our expert-curated portfolios and educational resources make investing accessible to everyone, regardless of experience level.',
+        question: '¿Pueden asesorarme técnicamente para elegir el recubrimiento ideal?',
+        answer: `¡Claro! Nuestros expertos analizarán tu proyecto (ambiente, sustrato, normativas) para recomendarte el producto óptimo. Contáctanos vía WhatsApp/correo con tus requerimientos.`,
     },
     {
-        question: 'What if I need help using the app?',
-        answer: 'Our dedicated support team is available 24/7 via chat or email. Plus, we offer extensive in-app tutorials and a comprehensive knowledge base to help you make the most of Finwise.'
+        question: '¿Qué garantías ofrecen en sus productos?',
+        answer: 'Garantizamos la calidad original del fabricante. Si hay inconvenientes (lote defectuoso, daño en transporte), nuestro equipo resolverá según protocolos industriales establecidos.'
     }
 ];
