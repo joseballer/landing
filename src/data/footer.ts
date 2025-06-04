@@ -22,8 +22,8 @@ export const footerDetails: {
             url: "#testimonials"
         }
     ],
-    email: 'address@yoursite.com',
-    telephone: '+1 (123) 456-7890',
+    email: 'Ajsupplyca@gmail.com',
+    telephone: '+58 (424) 839-9057',
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
@@ -32,6 +32,6 @@ export const footerDetails: {
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
-        instagram: 'https://www.instagram.com',
+        instagram: 'https://www.instagram.com/ajsupplyindustrial',
     }
 }
