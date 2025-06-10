@@ -1,5 +1,6 @@
 import { IMenuItem, ISocials } from "@/types";
 
+
 export const footerDetails: {
     subheading: string;
     quickLinks: IMenuItem[];
@@ -7,19 +8,22 @@ export const footerDetails: {
     telephone: string;
     socials: ISocials;
 } = {
-    subheading: "Empowering businesses with cutting-edge financial technology solutions.",
+    subheading: "La corrosion no duerme, nosotros tampoco.",
     quickLinks: [
         {
-            text: "Features",
+            text: "Marcas",
+            url: "#logos"
+            
+        },
+        {
+            text: "Pinturas",
             url: "#features"
+            
         },
         {
-            text: "Pricing",
-            url: "#pricing"
-        },
-        {
-            text: "Testimonials",
-            url: "#testimonials"
+            text: "Faqs",
+            url: "#faq"
+            
         }
     ],
     email: 'Ajsupplyca@gmail.com',
@@ -27,11 +31,12 @@ export const footerDetails: {
     socials: {
         // github: 'https://github.com',
         // x: 'https://twitter.com/x',
-        twitter: 'https://twitter.com/Twitter',
-        facebook: 'https://facebook.com',
+        //twitter: 'https://twitter.com/Twitter',
+        //facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
         linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
         instagram: 'https://www.instagram.com/ajsupplyindustrial',
+        whatsapp : 'https://wa.me/584248399057',
     }
 }

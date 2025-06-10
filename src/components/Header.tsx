@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import { HiOutlineXMark, HiBars3 } from "react-icons/hi2";
 import Image from "next/image";
-
+import WhatsAppButton from "@/components/WhatsAppButton";
 import Container from "./Container";
 import { siteDetails } from "@/data/siteDetails";
 import { menuItems } from "@/data/menuItems";
@@ -21,43 +21,48 @@ const Header: React.FC = () => {
         <header className="bg-transparent fixed top-0 left-0 right-0 md:absolute z-50 mx-auto w-full">
             <Container className="!px-0">
                 <nav className="shadow-md md:shadow-none bg-white md:bg-transparent mx-auto flex justify-between items-center py-2 px-5 md:py-10">
-                    {/* Logo */}
+                    {/* Logo (sin cambios) */}
                     <Link href="/" className="flex items-center gap-2">
                         <Image
                             src={siteDetails.logoUrl}
                             alt="Logo"
                             width={80}
                             height={80}
-                            className="max-w-[80px] h-auto object-contain" // Mantiene proporción
+                            className="max-w-[80px] h-auto object-contain"
                         />
                         <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
                             {siteDetails.siteName}
                         </span>
                     </Link>
 
-                    {/* Desktop Menu */}
-                    <ul className="hidden md:flex space-x-6">
-                        {menuItems.map((item) => (
-                            <li key={item.text}>
-                                <Link
-                                    href={item.url}
-                                    className="text-foreground hover:text-foreground-accent transition-colors"
-                                >
-                                    {item.text}
-                                </Link>
-                            </li>
-                        ))}
-                        <li>
-                            <Link
-                                href="#cta"
-                                className="text-black bg-primary hover:bg-primary-accent px-8 py-3 rounded-full transition-colors"
-                            >
-                                Download
-                            </Link>
-                        </li>
-                    </ul>
+                    {/* Desktop Menu - Modificado */}
+                    <div className="hidden md:flex items-center gap-6">
+                        {" "}
+                        {/* Cambiado de ul a div y agregado gap */}
+                        <ul className="flex space-x-6">
+                            {" "}
+                            {/* Menú principal en lista */}
+                            {menuItems.map((item) => (
+                                <li key={item.text}>
+                                    <Link
+                                        href={item.url}
+                                        className="text-foreground hover:text-foreground-accent transition-colors"
+                                    >
+                                        {item.text}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                        {/* Botones de acción (ahora con WhatsAppButton) */}
+                        <div className="flex gap-4 items-center">
+                            {" "}
+                            {/* Contenedor flexible para los botones */}
+                            <WhatsAppButton /> {/* Tu componente */}
+                           
+                        </div>
+                    </div>
 
-                    {/* Mobile Menu Button */}
+                    {/* Mobile Menu Button (sin cambios) */}
                     <div className="md:hidden flex items-center">
                         <button
                             onClick={toggleMenu}
@@ -83,7 +88,7 @@ const Header: React.FC = () => {
                 </nav>
             </Container>
 
-            {/* Mobile Menu with Transition */}
+            {/* Mobile Menu - Modificado */}
             <Transition
                 show={isOpen}
                 enter="transition ease-out duration-200 transform"
@@ -106,7 +111,11 @@ const Header: React.FC = () => {
                                 </Link>
                             </li>
                         ))}
-                        <li>
+                        <li className="mt-4 flex flex-col gap-3">
+                            {" "}
+                            {/* Contenedor para botones móviles */}
+                            <WhatsAppButton className="w-full text-center" />{" "}
+                            {/* Versión móvil */}
                             <Link
                                 href="#cta"
                                 className="text-black bg-primary hover:bg-primary-accent px-5 py-2 rounded-full block w-fit"

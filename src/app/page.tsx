@@ -10,18 +10,16 @@ import Container from "@/components/Container";
 //import CTA from "@/components/CTA";
 
 const HomePage: React.FC = () => {
-  return (
-    <>
-      <Hero />
-      <Logos />
-      <Container>
-        <Benefits />
-        <FAQ />
-
-        
-      </Container>
-    </>
-  );
+    return (
+        <>
+            <Hero />
+            <Logos />
+            <Container>
+                <Benefits />
+                <FAQ />
+            </Container>
+        </>
+    );
 };
 
 export default HomePage;

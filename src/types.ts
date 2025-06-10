@@ -49,5 +49,6 @@ export interface ISocials {
     twitter?: string;
     youtube?: string;
     x?: string;
+    whatsapp?: string;
     [key: string]: string | undefined;
 }
