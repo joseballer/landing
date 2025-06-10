@@ -58,7 +58,6 @@ const Header: React.FC = () => {
                             {" "}
                             {/* Contenedor flexible para los botones */}
                             <WhatsAppButton /> {/* Tu componente */}
-                           
                         </div>
                     </div>
 

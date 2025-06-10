@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 interface WhatsAppButtonProps {
-    phoneNumber: string;
+    phoneNumber?: string;
     message?: string;
     label?: string;
     className?: string;

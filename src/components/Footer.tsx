@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 import { siteDetails } from "@/data/siteDetails";
 import { footerDetails } from "@/data/footer";
 import { getPlatformIconByName } from "@/utils";
@@ -11,9 +11,16 @@ const Footer: React.FC = () => {
             <div className="max-w-7xl w-full mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10">
                 <div>
                     <Link href="/" className="flex items-center gap-2">
-                        <h3 className="manrope text-xl font-semibold cursor-pointer">
+                        <Image
+                            src={siteDetails.logoUrl}
+                            alt="Logo"
+                            width={80}
+                            height={80}
+                            className="max-w-[80px] h-auto object-contain"
+                        />
+                        <span className="manrope text-xl font-semibold text-foreground cursor-pointer">
                             {siteDetails.siteName}
-                        </h3>
+                        </span>
                     </Link>
                     <p className="mt-3.5 text-foreground-accent">
                         {footerDetails.subheading}
@@ -90,7 +97,7 @@ const Footer: React.FC = () => {
                     Copyright &copy; {new Date().getFullYear()}{" "}
                     {siteDetails.siteName}. All rights reserved.
                 </p>
-                <p className="text-sm mt-2 text-gray-500">
+                {/* <p className="text-sm mt-2 text-gray-500">
                     Made with &hearts; by{" "}
                     <a href="https://nexilaunch.com" target="_blank">
                         Nexi Launch
@@ -104,7 +111,7 @@ const Footer: React.FC = () => {
                     >
                         Youthmind
                     </a>
-                </p>
+                </p> */}
             </div>
         </footer>
     );
