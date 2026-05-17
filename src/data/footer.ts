@@ -29,12 +29,7 @@ export const footerDetails: {
     email: 'ventas@ajsindustrial.com',
     telephone: '+58 (424) 839-9057',
     socials: {
-        // github: 'https://github.com',
-        // x: 'https://twitter.com/x',
-        //twitter: 'https://twitter.com/Twitter',
-        //facebook: 'https://facebook.com',
         // youtube: 'https://youtube.com',
-        linkedin: 'https://www.linkedin.com',
         // threads: 'https://www.threads.net',
         instagram: 'https://www.instagram.com/ajsupplyindustrial',
         whatsapp : 'https://wa.me/584248399057',

@@ -38,7 +38,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiTrendingUp size={26} />,
             },
         ],
-        imageSrc: "/images/barco.png",
+        imageSrc: "/images/barco.webp",
     },
     {
         title: "Oil & Gas",
@@ -64,7 +64,7 @@ export const benefits: IBenefit[] = [
                 icon: <FiPieChart size={26} />,
             },
         ],
-        imageSrc: "/images/refineria.png",
+        imageSrc: "/images/refineria.webp",
     },
     {
         title: "Fábricas y Plantas Industriales",
@@ -90,6 +90,6 @@ export const benefits: IBenefit[] = [
                 icon: <FiShield size={26} />,
             },
         ],
-        imageSrc: "/images/fabrica.png",
+        imageSrc: "/images/fabrica.webp",
     },
 ];

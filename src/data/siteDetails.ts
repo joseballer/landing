@@ -7,5 +7,5 @@ export const siteDetails = {
     },
     language: 'es-ES',
     locale: 'es_VE',
-    logoUrl: '/logos/logoAj.png',
+    logoUrl: '/logos/logoAj.webp',
 }

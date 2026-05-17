@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
         <div
             className="absolute inset-0 bg-cover bg-center min-h-[400px]"
             style={{
-                backgroundImage: "url('/images/fondoPlataforma.png')",
+                backgroundImage: "url('/images/fondoPlataforma.webp')",
                 backgroundPosition: "center center",
             }}
         ></div>

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://ajsindutrial.com
+Host: https://ajsindustrial.com
 
 # Sitemaps
-Sitemap: https://ajsindutrial.com/sitemap.xml
+Sitemap: https://ajsindustrial.com/sitemap.xml
