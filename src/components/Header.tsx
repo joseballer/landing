@@ -25,7 +25,7 @@ const Header: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <Image
                             src={siteDetails.logoUrl}
-                            alt="Logo"
+                            alt={`${siteDetails.siteName} logo`}
                             width={80}
                             height={80}
                             className="max-w-[80px] h-auto object-contain"

@@ -8,7 +8,7 @@ export const faqs: IFAQ[] = [
     },
     {
         question: `¿Qué métodos de pago aceptan en ${siteDetails.siteName}?`,
-        answer: 'Aceptamos transferencias bancarias, efectivo en tienda (Barcelona, Anzoátegui), y pagos móviles. Para pedidos por WhatsApp/correo enviamos detalles de pago con factura electrónica.',
+        answer: 'Aceptamos transferencias bancarias, pago móvil, efectivo en tienda (Barcelona, Anzoátegui) y pagos en divisa. Contáctanos vía WhatsApp o correo.',
     },
     {
         question: '¿Hacen envíos a otras ciudades de Venezuela?',
@@ -16,10 +16,10 @@ export const faqs: IFAQ[] = [
     },
     {
         question: '¿Pueden asesorarme técnicamente para elegir el recubrimiento ideal?',
-        answer: `¡Claro! Nuestros expertos analizarán tu proyecto (ambiente, sustrato, normativas) para recomendarte el producto óptimo. Contáctanos vía WhatsApp/correo con tus requerimientos.`,
+        answer: `¡Claro! Nuestros expertos analizarán tu proyecto (ambiente, sustrato, normativas) para recomendarte el producto óptimo. Contáctanos vía WhatsApp o correo (ventas@ajsindustrial.com) con tus requerimientos.`,
     },
     {
         question: '¿Qué garantías ofrecen en sus productos?',
-        answer: 'Garantizamos la calidad original del fabricante. Si hay inconvenientes (lote defectuoso, daño en transporte), nuestro equipo resolverá según protocolos industriales establecidos.'
+        answer: 'Garantizamos la calidad original del fabricante. Si hay inconvenientes, contamos con el respaldo de las marcas para resolver cualquier situación según los protocolos establecidos.'
     }
 ];

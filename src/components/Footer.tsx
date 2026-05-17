@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                     <Link href="/" className="flex items-center gap-2">
                         <Image
                             src={siteDetails.logoUrl}
-                            alt="Logo"
+                            alt={`${siteDetails.siteName} logo`}
                             width={80}
                             height={80}
                             className="max-w-[80px] h-auto object-contain"
@@ -97,21 +97,9 @@ const Footer: React.FC = () => {
                     Copyright &copy; {new Date().getFullYear()}{" "}
                     {siteDetails.siteName}. All rights reserved.
                 </p>
-                {/* <p className="text-sm mt-2 text-gray-500">
-                    Made with &hearts; by{" "}
-                    <a href="https://nexilaunch.com" target="_blank">
-                        Nexi Launch
-                    </a>
+                <p className="text-sm mt-2 text-foreground-accent">
+                    Desarrollado por JBalleraDev
                 </p>
-                <p className="text-sm mt-2 text-gray-500">
-                    UI kit by{" "}
-                    <a
-                        href="https://ui8.net/youthmind/products/fintech-finance-mobile-app-ui-kit"
-                        target="_blank"
-                    >
-                        Youthmind
-                    </a>
-                </p> */}
             </div>
         </footer>
     );

@@ -67,13 +67,13 @@ import Image from 'next/image';
 const Logos: React.FC = () => {
     return (
         <section id="logos" className="py-32 px-5 bg-background">
-            <p className="text-lg font-medium text-center mb-8">Trusted by <span className="text-secondary">2000+</span> customers worldwide</p>
-            <div className="w-full flex flex-wrap flex-row items-center justify-center gap-10 sm:gap-16 px-4">
+            <p className="text-lg font-medium text-center mb-8">Respaldados por <span className="text-secondary">2000+</span> clientes en Venezuela</p>
+            <div className="w-full grid grid-cols-2 lg:grid-cols-4 place-items-center gap-8 sm:gap-12 px-4 max-w-4xl mx-auto">
                 {/* Logo 1 */}
                 <div className="relative w-52 h-20 transition-all hover:scale-105">
                     <Image
                         src="/logos/akzonobel.png"
-                        alt="Logo Empresa 1"
+                        alt="AkzoNobel"
                         fill
                         className="object-contain object-center brightness-100 contrast-100"
                         sizes="(max-width: 768px) 180px, 208px"
@@ -85,7 +85,7 @@ const Logos: React.FC = () => {
                 <div className="relative w-52 h-20 transition-all hover:scale-105">
                     <Image
                         src="/logos/jotun.png"
-                        alt="Logo Empresa 2"
+                        alt="Jotun"
                         fill
                         className="object-contain object-center brightness-100 contrast-100"
                         sizes="(max-width: 768px) 180px, 208px"
@@ -96,7 +96,7 @@ const Logos: React.FC = () => {
                 <div className="relative w-52 h-20 transition-all hover:scale-105">
                     <Image
                         src="/logos/montana.png"
-                        alt="Logo Empresa 3"
+                        alt="Montana"
                         fill
                         className="object-contain object-center brightness-100 contrast-100"
                         sizes="(max-width: 768px) 180px, 208px"
@@ -107,7 +107,7 @@ const Logos: React.FC = () => {
                 <div className="relative w-52 h-20 transition-all hover:scale-105">
                     <Image
                         src="/logos/sika.png"
-                        alt="Logo Empresa 4"
+                        alt="Sika"
                         fill
                         className="object-contain object-center brightness-100 contrast-100"
                         sizes="(max-width: 768px) 180px, 208px"

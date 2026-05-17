@@ -1,0 +1,16 @@
+{
+  "name": "A&J Supply",
+  "short_name": "A&J Supply",
+  "description": "Soluciones en pinturas industriales y marinas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FED835",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}

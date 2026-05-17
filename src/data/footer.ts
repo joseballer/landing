@@ -26,7 +26,7 @@ export const footerDetails: {
             
         }
     ],
-    email: 'Ajsupplyca@gmail.com',
+    email: 'ventas@ajsindustrial.com',
     telephone: '+58 (424) 839-9057',
     socials: {
         // github: 'https://github.com',
